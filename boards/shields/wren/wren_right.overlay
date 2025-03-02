@@ -1,0 +1,20 @@
+#include "wren.dtsi" // The shared dtsi file is included in the overlay
+
+&default_transform { // Offset of 6 because the left side has 6 columns
+    col-offset = <6>;
+};
+
+// Label of the kscan node in the dtsi
+&kscan0 {
+    col-gpios
+            = <&pro_micro0 9 GPIO_ACTIVE_HIGH>
+            , <&pro_micro0 10 GPIO_ACTIVE_HIGH>
+            , <&pro_micro0 11 GPIO_ACTIVE_HIGH>
+            , <&pro_micro0 13 GPIO_ACTIVE_HIGH>
+            , <&pro_micro0 15 GPIO_ACTIVE_HIGH>
+            , <&pro_micro0 2 GPIO_ACTIVE_HIGH>
+            , <&pro_micro0 29 GPIO_ACTIVE_HIGH>
+            , <&pro_micro0 31 GPIO_ACTIVE_HIGH>
+            , <&pro_micro1 0 GPIO_ACTIVE_HIGH>
+            ;
+};

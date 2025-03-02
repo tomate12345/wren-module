@@ -1,0 +1,7 @@
+# No whitespace after the comma or in your part name!
+config SHIELD_WREN_LEFT
+    def_bool $(shields_list_contains,wren_left)
+
+# No whitespace after the comma or in your part name!
+config SHIELD_WREN_RIGHT
+    def_bool $(shields_list_contains,wren_right)
