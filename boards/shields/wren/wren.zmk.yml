@@ -1,16 +1,13 @@
-
-
 file_format: "1"
 id: wren
 name: Wren
 type: shield
-url: -/-
-requires: [pro_micro]
-exposes: [GPIO]
+url: [] ]  # Update this with your repository URL if applicable
+requires: [pro_micro]  # Adjust if your board requires a different microcontroller
+exposes: []            # List any peripherals this shield exposes, if any
 features:
   - keys
-  - encoder
-  - studio
+  # - display    # Uncomment or add additional features if supported
 siblings:
   - wren_left
   - wren_right
