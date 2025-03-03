@@ -1,5 +1,4 @@
 #include <dt-bindings/zmk/matrix_transform.h>
-#include "wren-layouts.dtsi"
 
 / {
     kscan0: kscan0 {
@@ -8,11 +7,11 @@
         wakeup-source;
 
         row-gpios
-            = <&pro_micro0 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&pro_micro0 8 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&pro_micro0 24 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&pro_micro0 22 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&pro_micro1 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            = <&pro_micro1 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&pro_micro0 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&pro_micro5 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&pro_micro4 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&pro_micro9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             ;
     };
 };
