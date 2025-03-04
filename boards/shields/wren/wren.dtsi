@@ -1,5 +1,6 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 #include "wren-layouts.dtsi"
+#include "wren_studio.dtsi"
 
 / {
     kscan0: kscan0 {
@@ -44,5 +45,11 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5)                       RC(3,6) RC
     chosen {
         zmk,physical-layout = &physical_layout0;
         // Other chosen items
+    };
+};
+
+/ {
+    zmk_studio_unlock: studio_unlock {
+        compatible = "zmk,studio-unlock";
     };
 };
