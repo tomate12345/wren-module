@@ -15,11 +15,11 @@
 //               |  ?   | ALT  |  OS | BKSP| ENTER |   | SPACE | DEL  |  OS  | ALT  |  ?  |
         
             bindings = <
-   &kp DE_CARET &kp DE_N1 &kp DE_N2   &kp DE_N3   &kp DE_N4   &kp DE_N5                              &kp DE_N6  &kp DE_N7   &kp DE_N8    &kp DE_N9   &kp DE_N0    &kp DE_S    &kp INS  &kp HOME &kp PG_UP
-   &kp ESC      &kp DE_Q  &kp DE_W    &kp DE_E    &kp DE_R    &kp DE_T                               &kp DE_Z   &kp DE_U    &kp DE_I     &kp DE_O    &kp DE_P     &kp DE_U    &kp END  &kp ENF  &kp PG_DN
-   &kp LSHFT    &kp DE_A  &kp DE_S    &kp DE_D    &kp DE_F    &kp DE_G                               &kp DE_H   &kp DE_J    &kp DE_K     &kp DE_L    &kp DE_O     &kp DE_A             &kp UP  
-   &kp LT       &kp DE_Y  &kp DE_X    &kp DE_C    &kp DE_V    &kp DE_B                               &kp DE_N   &kp DE_M    &kp DE_COMMA &kp DE_DOT  &kp DE_MINUS &kp DE_HASH &kp LEFT &kp DOWN &kp RIGHT
-                          &kp LGUI    &kp LALT    &kp LGUI    &kp BSPC    &kp ENTER     &kp DE_SPACE &kp DEL    &kp RGUI    &kp RALT     &kp RGUI
+   &kp CARET &kp N1 &kp N2   &kp N3   &kp N4   &kp N5                           &kp N6  &kp N7   &kp N8    &kp N9   &kp N0    &kp S    &kp INS  &kp HOME &kp PG_UP
+   &kp ESC   &kp Q  &kp W    &kp E    &kp R    &kp T                            &kp Z   &kp U    &kp I     &kp O    &kp P     &kp U    &kp END  &kp END  &kp PG_DN
+   &kp LSHFT &kp A  &kp S    &kp D    &kp F    &kp G                            &kp H   &kp J    &kp K     &kp L    &kp O     &kp A             &kp UP  
+   &kp LT    &kp Y  &kp X    &kp C    &kp V    &kp B                            &kp N   &kp M    &kp COMMA &kp DOT  &kp MINUS &kp HASH &kp LEFT &kp DOWN &kp RIGHT
+                    &kp LGUI &kp LALT &kp LGUI &kp BSPC &kp ENTER     &kp SPACE &kp DEL &kp RGUI &kp RALT  &kp RGUI
             >;
         };
     };
