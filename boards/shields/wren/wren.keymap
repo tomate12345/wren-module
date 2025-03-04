@@ -19,7 +19,7 @@
    &kp ESC   &kp Q  &kp W    &kp E    &kp R    &kp T                            &kp Z   &kp U    &kp I     &kp O    &kp P     &kp U    &kp END  &kp END  &kp PG_DN
    &kp LSHFT &kp A  &kp S    &kp D    &kp F    &kp G                            &kp H   &kp J    &kp K     &kp L    &kp O     &kp A             &kp UP  
    &kp LT    &kp Y  &kp X    &kp C    &kp V    &kp B                            &kp N   &kp M    &kp COMMA &kp DOT  &kp MINUS &kp HASH &kp LEFT &kp DOWN &kp RIGHT
-                    &kp LGUI &kp LALT &kp LGUI &kp BSPC &kp ENTER     &kp SPACE &kp DEL &kp RGUI &kp RALT  &kp RGUI
+                    &kp LGUI &kp LALT &kp LGUI &kp BSPC &kp ENTER     &kp SPACE &kp DEL &kp RGUI &kp RALT  &zmk_studio_unlock
             >;
         };
     };
