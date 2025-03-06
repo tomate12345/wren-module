@@ -7,7 +7,8 @@ requires: [pro_micro]  # Adjust if your board requires a different microcontroll
 exposes: []            # List any peripherals this shield exposes, if any
 features:
   - keys
-  # - display    # Uncomment or add additional features if supported
+  - studio
+  - encoder
 siblings:
   - wren_left
   - wren_right

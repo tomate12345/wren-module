@@ -2,12 +2,6 @@
 #include <dt-bindings/zmk/keys.h>
 #include <locale/keys_de.h>
 
-sensors: sensors {
-        compatible = "zmk,keymap-sensors";
-        sensors = <&left_encoder &right_encoder>;
-        triggers-per-rotation = <20>;
-    };
-
 / {
     keymap {
         compatible = "zmk,keymap";
@@ -27,6 +21,8 @@ sensors: sensors {
    &kp LT         &kp DE_Y    &kp DE_X    &kp DE_C    &kp DE_V    &kp DE_B                              &kp DE_N    &kp DE_M     &kp DE_COMMA &kp DE_DOT  &kp DE_MINUS      &kp DE_HASH         &kp LEFT  &kp DOWN &kp RIGHT
                               &kp C_MUTE  &kp LALT    &kp LCTRL   &kp BSPC    &kp ENTER     &kp SPACE   &kp DEL     &kp RGUI     &kp RALT     &studio_unlock
             >;
+
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
         };
     };
  };
