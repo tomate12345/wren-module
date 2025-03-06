@@ -2,6 +2,19 @@
 #include "wren-layouts.dtsi"
 
 / {
+    zmk_studio_unlock: studio_unlock {
+        compatible = "zmk,studio-unlock";
+    };
+};
+
+/ {
+    chosen {
+        zmk,physical-layout = &physical_layout0;
+        // Other chosen items
+    };
+};
+
+/ {
     kscan0: kscan0 {
         compatible = "zmk,kscan-gpio-matrix";
         diode-direction = "col2row";
@@ -51,18 +64,5 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5)                       RC(3,6) RC
                 RC(4,1) RC(4,2) RC(4,3) RC(4,4) RC(4,5)       RC(4,6) RC(4,7) RC(4,8) RC(4,9) RC(4,10)
         
         >;
-    };
-};
-
-/ {
-    chosen {
-        zmk,physical-layout = &physical_layout0;
-        // Other chosen items
-    };
-};
-
-/ {
-    zmk_studio_unlock: studio_unlock {
-        compatible = "zmk,studio-unlock";
     };
 };

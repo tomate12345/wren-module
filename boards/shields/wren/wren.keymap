@@ -2,6 +2,12 @@
 #include <dt-bindings/zmk/keys.h>
 #include <locale/keys_de.h>
 
+sensors: sensors {
+        compatible = "zmk,keymap-sensors";
+        sensors = <&left_encoder &right_encoder>;
+        triggers-per-rotation = <20>;
+    };
+
 / {
     keymap {
         compatible = "zmk,keymap";
