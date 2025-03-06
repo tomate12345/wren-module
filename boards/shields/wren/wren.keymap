@@ -19,7 +19,7 @@
    &kp ESC        &kp DE_Q    &kp DE_W    &kp DE_E    &kp DE_R    &kp DE_T                              &kp DE_Z    &kp DE_U     &kp DE_I     &kp DE_O    &kp DE_P          &kp DE_U_UMLAUT   &kp DEL  &kp END  &kp PG_DN
    &mt LSHFT TAB  &kp DE_A    &kp DE_S    &kp DE_D    &kp DE_F    &kp DE_G                              &kp DE_H    &kp DE_J     &kp DE_K     &kp DE_L    &kp DE_O_UMLAUT   &kp DE_A_UMLAUT            &kp UP  
    &kp LT         &kp DE_Y    &kp DE_X    &kp DE_C    &kp DE_V    &kp DE_B                              &kp DE_N    &kp DE_M     &kp DE_COMMA &kp DE_DOT  &kp DE_MINUS      &kp DE_HASH         &kp LEFT  &kp DOWN &kp RIGHT
-                              &kp C_MUTE  &kp LALT    &kp LCTRL   &kp BSPC    &kp SPACE     &kp ENTER   &kp DEL     &kp RGUI     &kp RALT     &studio_unlock
+                              &kp C_MUTE  &kp LALT    &kp LCTRL   &kp BSPC    &kp SPACE     &kp ENTER   &kp DEL     &kp LGUI     &kp RALT     &studio_unlock
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp RIGHT LEFT>;
